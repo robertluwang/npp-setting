@@ -1,0 +1,2 @@
+# npp
+customized npp setting
