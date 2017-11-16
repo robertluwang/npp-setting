@@ -13,3 +13,7 @@ You can import it npp top menu Language->Define your language->import, restart n
 
 ## markdown preview
 I used MarkdownViewer++ plugin, you can install it from Plugin Manager.
+
+Here is screen shot.
+
+![](portable-npp-markdown.jpg)
