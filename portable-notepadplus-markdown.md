@@ -9,7 +9,7 @@ By default there is not markdown syntax highlight in npp, Thanks Edditoria share
 
 I prefer Bespin dark theme for npp so changed little bit, and share [here](https://github.com/robertluwang/npp/blob/master/userDefineLang_markdown_bespin.xml)  .
 
-You can import it npp from top menu Language->Define your language->import, restart npp will see Markdown(Bespin) in list.
+You can import it to npp from top menu Language->Define your language->import, restart npp will see Markdown(Bespin) in list.
 
 ## markdown preview
 I used MarkdownViewer++ plugin, you can install it from Plugin Manager.
