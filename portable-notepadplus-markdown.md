@@ -1,8 +1,8 @@
 # portable notepadplus markdown
 
 ## portable npp
-download latest npp in 7z from [here](https://notepad-plus-plus.org/download/v7.5.1.html)
-extract it to your portable folder, such as C:\portableapps\npp.
+- download latest npp in 7z from [here](https://notepad-plus-plus.org/download/v7.5.1.html)
+- extract it to your portable folder, such as C:\portableapps\npp.
 
 ## markdown syntax highlight 
 By default there is not markdown syntax highlight in npp, Thanks Edditoria shared few dark themes [here](https://github.com/Edditoria/markdown-plus-plus).
