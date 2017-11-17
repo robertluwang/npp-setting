@@ -17,7 +17,11 @@ Status:Cannot list directory files
 
 At first I thought hunspell.dll missing since there is not npp\plugins\Config\Hunspell, I created [issue](https://github.com/Predelnik/DSpellCheck/issues/111), Sergey confirmed hunspell.dll is linked into plugin statically, so issue is on dictionary installation.
 
-As soon as I manually downloaded [en_US](ftp://ftp.snt.utwente.nl/pub/software/openoffice/contrib/dictionaries/en_US.zip) dictionary, and placed to npp\plugins\Config\Hunspell, restart npp then spell checker is working now.
+As soon as I manually downloaded dictionary en_US.zip from ftp server:
+```
+ftp://ftp.snt.utwente.nl/pub/software/openoffice/contrib/dictionaries
+```
+and placed en_US.* to npp\plugins\Config\Hunspell, restart npp then spell checker is working now.
 
 ## Suggestion Control
 There are two options:
