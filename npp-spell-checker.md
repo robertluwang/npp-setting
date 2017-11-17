@@ -29,8 +29,12 @@ en_US.dic
 
 You can download and extract folder hunspell\ to npp\plugins\Config\, restart npp you will spell checker is working now.
 
-You can manually download more dictionaries from this [ftp server](
-ftp://ftp.snt.utwente.nl/pub/software/openoffice/contrib/dictionaries/), then places to npp\plugins\Config\Hunspell\.
+You can manually download more dictionaries from this ftp server,
+```
+ftp://ftp.snt.utwente.nl/pub/software/openoffice/contrib/dictionaries/
+```
+
+then places to npp\plugins\Config\Hunspell\.
 
 ## Suggestion Control
 There are two options:
