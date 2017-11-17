@@ -7,7 +7,7 @@ Then launch Plugin Manager, find DSpellCheck to install it.
 ![](images/DSpellChecker.jpg)
 
 ## Install Hunspell dictionary
-Check DSpellChecker it seems not working, from plugin setting, it stuck at ftp download:
+Check Spell Checker it seems not working, from plugin setting, it stuck at ftp download:
 ```
 ftp://ftp.snt.utwente.nl/pub/software/openoffice/contrib/dictionaries/
 Status:Cannot list directory files
