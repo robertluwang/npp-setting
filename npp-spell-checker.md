@@ -4,37 +4,20 @@ Check if npp Plugin Manager ready there, it is not included in latest npp x64, y
 
 Then launch Plugin Manager, find DCheckSpecker to install it.
 
-![](DSpellChecker.jpg)
+![](images/DSpellChecker.jpg)
 
 ## Install Hunspell dictionary
-Check DSpellChecker setting, Hunspell library seems not existing at this location:
-```
-npp\plugins\Config\Hunspell
-```
-
-also download dictionaries not working:
+Check DSpellChecker it seems not working, from plugin setting, it stuck at ftp download:
 ```
 ftp://ftp.snt.utwente.nl/pub/software/openoffice/contrib/dictionaries/
 Status:Cannot list directory files
 ```
 
-![](spellchecker-Hunspell-error.jpg)
+![](images/spellchecker-Hunspell-error.jpg)
 
-After some research, what we miss is dll and dictionary, I made [this zip](https://github.com/robertluwang/npp/blob/master/Hunspell.zip) for default US English.
-```
-hunspell.dll
-en_US.aff
-en_US.dic
-```
+At first I thought hunspell.dll missing since there is not npp\plugins\Config\Hunspell, I created [issue](https://github.com/Predelnik/DSpellCheck/issues/111), Sergey confirmed hunspell.dll is linked into plugin statically, so issue is on dictionary installation.
 
-You can download and extract folder hunspell\ to npp\plugins\Config\, restart npp you will see spell checker is working now.
-
-You can manually download more dictionaries from this ftp server,
-```
-ftp://ftp.snt.utwente.nl/pub/software/openoffice/contrib/dictionaries/
-```
-
-then places to npp\plugins\Config\Hunspell\.
+As soon as I manually downloaded [en_US](ftp://ftp.snt.utwente.nl/pub/software/openoffice/contrib/dictionaries/en_US.zip) dictionary, and placed to npp\plugins\Config\Hunspell, restart npp then spell checker is working now.
 
 ## Suggestion Control
 There are two options:
@@ -42,5 +25,7 @@ There are two options:
 - Use N++ Context Menu
 
 I prefer Special Suggestion Button, even you can change button size and opacity in advanced tab.
+
+Enjoy the elegant spell checker in npp.
 
 
