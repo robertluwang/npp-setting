@@ -1,4 +1,4 @@
-# portable notepadplus markdown
+# portable npp markdown
 
 ## portable npp
 - download latest npp in 7z from [here](https://notepad-plus-plus.org/download/v7.5.1.html)
