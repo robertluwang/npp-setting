@@ -17,3 +17,6 @@ I used MarkdownViewer++ plugin, you can install it from Plugin Manager.
 Here is screen shot.
 
 ![](portable-npp-markdown.jpg)
+
+## markdown output
+MarkdownViewer++ provides Export feature to html and pdf.
