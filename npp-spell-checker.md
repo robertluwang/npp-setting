@@ -2,7 +2,7 @@
 
 Check if npp Plugin Manager ready there, it is not included in latest npp x64, you can follow up [here](https://github.com/robertluwang/npp/blob/master/npp-plugin-manager.md) to install it.
 
-Then launch Plugin Manager, find DCheckSpecker to install it.
+Then launch Plugin Manager, find DSpellChecker to install it.
 
 ![](images/DSpellChecker.jpg)
 
