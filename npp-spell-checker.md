@@ -27,7 +27,7 @@ en_US.aff
 en_US.dic
 ```
 
-You can download and extract folder hunspell\ to npp\plugins\Config\, restart npp you will spell checker is working now.
+You can download and extract folder hunspell\ to npp\plugins\Config\, restart npp you will see spell checker is working now.
 
 You can manually download more dictionaries from this ftp server,
 ```
