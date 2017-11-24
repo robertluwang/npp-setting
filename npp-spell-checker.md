@@ -23,7 +23,7 @@ ftp://ftp.snt.utwente.nl/pub/software/openoffice/contrib/dictionaries
 ```
 and placed en_US.* to npp\plugins\Config\Hunspell, restart npp then spell checker is working now.
 
-**Note**: Nov 24, 2017 dictionary ftp issue fixed by owner of SDpellCheck [Sergey Semushin](https://github.com/predelnik), he sent me the [issue](https://github.com/Predelnik/DSpellCheck/issues/111) [fix](https://drive.google.com/uc?export=download&id=1jpQwMxPDOUryoEpjV2brfv2JALDmdYux) and verified it is working well.
+**Note**: Nov 24, 2017 dictionary ftp issue fixed by owner of DSpellCheck [Sergey Semushin](https://github.com/predelnik), he sent me the [issue](https://github.com/Predelnik/DSpellCheck/issues/111) [fix](https://drive.google.com/uc?export=download&id=1jpQwMxPDOUryoEpjV2brfv2JALDmdYux) and verified it is working well.
 
 ## Suggestion Control
 There are two options:
